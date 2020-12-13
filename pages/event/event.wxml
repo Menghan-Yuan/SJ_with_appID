@@ -1,2 +1,45 @@
 <!--pages/活动/活动.wxml-->
-<text>pages/活动/活动.wxml</text>
+<view class = "eventWrapper">
+  <view class = "eventInfo">
+    <view class = 'imgWrapper'>
+      <image class ="cutImg" src= "/image/event/test.png"></image>
+    </view>
+    <view class = "textWrapper">
+      <text class="title">活动名称</text>
+      <view class = 'timeSpan'>6/13 - 12/31</view>
+    </view> 
+  </view>
+  <view class= "bottonWrapper">
+    <navigator class='enrolNav' >立即报名</navigator>
+  </view>
+</view>
+
+<view class = "eventWrapper">
+  <view class = "eventInfo">
+    <view class = 'imgWrapper'>
+      <image class ="cutImg" src= "/image/event/test.png"></image>
+    </view>
+    <view class = "textWrapper">
+      <text class="title">活动名称</text>
+      <view class = 'timeSpan'>6/13 - 12/31</view>
+    </view> 
+  </view>
+  <view class= "bottonWrapper">
+    <navigator class='enrolNav' >立即报名</navigator>
+  </view>
+</view>
+
+<view class = "eventWrapper">
+  <view class = "eventInfo">
+    <view class = 'imgWrapper'>
+      <image class ="cutImg" src= "/image/event/test.png"></image>
+    </view>
+    <view class = "textWrapper">
+      <text class="title">活动名称</text>
+      <view class = 'timeSpan'>6/13 - 12/31</view>
+    </view> 
+  </view>
+  <view class= "bottonWrapper">
+    <navigator class='enrolNav' >立即报名</navigator>
+  </view>
+</view>
