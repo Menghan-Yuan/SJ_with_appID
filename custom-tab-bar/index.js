@@ -23,8 +23,7 @@ Component({
       iconPath: "/image/icon_component.png",
       selectedIconPath: "/image/icon_component_HL.png",
       text: "电台"
-    }
-  ]
+    }]
   },
   attached() {
   },
