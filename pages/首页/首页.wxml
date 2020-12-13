@@ -1,3 +1,11 @@
 <!--pages/首页/首页.wxml-->
-<text>pages/首页/首页.wxml</text>
-SJ致力于
+<view class="intro">Sharesome Journey</view>
+
+<view class="news1-container"><swiper indicator-dots="{{indicatordots}}" autoplay="{{autoplay}}" interval="{{interval}}"> <swiper-item><image class="logo"src="/image/banner.png"></image>  </swiper-item><swiper-item><image class="logo"src="/image/banner2.jpg"></image>  </swiper-item><swiper-item><image class="logo"src="/image/banner3.jpg"></image>  </swiper-item></swiper></view>
+
+<view class="textt"> <text>SJ 致力于打造一个 「有趣 温暖 有态度」的留学生共享社区，通过分享 “ 志愿者、艺术文化活动、技能发展项目、实习求职干货 ” 等资讯，和独特有趣的「澳洲留学生活和故事」丰富在澳留学生的生活日常，倡导一种新型的留学生活方式。</text>
+</view>
+
+<view class="textt"> <text>SJ 致力于打造一个 「有趣 温暖 有态度」的留学生共享社区，通过分享 “ 志愿者、艺术文化活动、技能发展项目、实习求职干货 ” 等资讯，和独特有趣的「澳洲留学生活和故事」丰富在澳留学生的生活日常，倡导一种新型的留学生活方式。</text>
+</view>
+

@@ -1,1 +1,10 @@
-/* pages/首页/首页.wxss */
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+.news1-container swiper
+{width: 100%;height: 450rpx;margin-top: 1rpx;}
+
+.textt{
+  margin: 30px;
+}
