@@ -19,7 +19,7 @@ Component({
       selectedIconPath: "/image/icon_component_HL.png",
       text: "杂志"
     },{
-      pagePath: "/pages/radio/radio台",
+      pagePath: "/pages/radio/radio",
       iconPath: "/image/icon_component.png",
       selectedIconPath: "/image/icon_component_HL.png",
       text: "电台"
