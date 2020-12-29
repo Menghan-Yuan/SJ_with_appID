@@ -11,18 +11,17 @@ Component({
     }
   },
   data: {
-    tridPlay: true,// 播放的flag
-    duration: '00:00',// 播放时长     时间格式
-    current:'00:00',// 当前播放时长   时间格式
-    durationNum:0,// 播放时长数字     数字格式
-    currentNum:0// 当前播放时长数字   数字格式
+    tridPlay: true,
+    duration: '00:00',
+    current:'00:00',
+    durationNum:0,
+    currentNum:0
   },
-/**
-   * 生命周期函数--监听页面显示
-   */
+
   onShow: function() {
     let that = this
     myaudio.src = '/audio/8_26.mp3'
+    myaudio.src = '/audio/9_2.mp3'
     myaudio.onTimeUpdate(function(){
       let durationnum = parseInt(myaudio.duration)
       let time = that.formatSeconds(myaudio.duration)
@@ -97,12 +96,9 @@ changeValue(e){
   let step = (val / 100) * this.data.durationNum
   myaudio.seek(parseInt(step))
   this.changeCurrent(step)
-  // setTimeout(() => { myaudio.pause()},0)
-  // setTimeout(() => { myaudio.play() }, 10)
-  // myaudio.pause()
-  // myaudio.play()
+
 },
-// 当前播放格式化
+
 changeCurrent(step){
   let currentnum = parseInt(step)
   let currentt = this.formatSeconds(currentnum)

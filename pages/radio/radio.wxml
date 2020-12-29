@@ -1,8 +1,9 @@
 <!--pages/电台/电台.wxml-->
-<!--页面代码-->
+<view class='title'>电台</view>
+<view class="card" >
 <view class='trip_audio'>
-    <view class='trip_tit'>语音导游</view>
-    <slider style="width:582rpx;margin-left:50rpx;" bindchange="changeValue" value='{{currentNum/durationNum}}' backgroundColor='#EDEDED' selected-color="#4F68FA" block-size="20"></slider>
+    <view class='trip_tit'>8月26日 墨尔本 8-15℃ 多云转晴⛅️</view>
+    <slider style="width:582rpx;margin-left:50rpx;" bindchange="changeValue" value='{{currentNum/durationNum}}' backgroundColor='#EDEDED' selected-color="#4F68FA" block-size="10"></slider>
     <view class='time'>
       <view class='time_left'>{{current}}</view>
       <!-- <view class='time_left'>{{currentNum}}</view> -->
@@ -14,3 +15,81 @@
       <image src='/image/forward.png' bindtap='go'></image>
     </view>
   </view>
+
+  <view class='trip_audio'>
+    <view class='trip_tit'>9月2日 墨尔本 10-19℃ 阴转小雨 ☔️</view>
+    <slider style="width:582rpx;margin-left:50rpx;" bindchange="changeValue" value='{{currentNum/durationNum}}' backgroundColor='#EDEDED' selected-color="#4F68FA" block-size="10"></slider>
+    <view class='time'>
+      <view class='time_left'>{{current}}</view>
+      <!-- <view class='time_left'>{{currentNum}}</view> -->
+      <view class='time_right'>{{duration}}</view>
+    </view>
+    <view class='trip_btn'>
+      <image src='/image/rewind.png' bindtap='back'></image>
+      <image src='/image/play.png' bindtap='play'></image>
+      <image src='/image/forward.png' bindtap='go'></image>
+    </view>
+  </view>
+
+  <view class='trip_audio'>
+    <view class='trip_tit'>9月9日 墨尔本 6-19℃ 多云转晴 ⛅️</view>
+    <slider style="width:582rpx;margin-left:50rpx;" bindchange="changeValue" value='{{currentNum/durationNum}}' backgroundColor='#EDEDED' selected-color="#4F68FA" block-size="10"></slider>
+    <view class='time'>
+      <view class='time_left'>{{current}}</view>
+      <!-- <view class='time_left'>{{currentNum}}</view> -->
+      <view class='time_right'>{{duration}}</view>
+    </view>
+    <view class='trip_btn'>
+      <image src='/image/rewind.png' bindtap='back'></image>
+      <image src='/image/play.png' bindtap='play'></image>
+      <image src='/image/forward.png' bindtap='go'></image>
+    </view>
+  </view>
+
+  <view class='trip_audio'>
+    <view class='trip_tit'>9月16日 墨尔本 7-25℃ 阴转小雨 ☔️ </view>
+    <slider style="width:582rpx;margin-left:50rpx;" bindchange="changeValue" value='{{currentNum/durationNum}}' backgroundColor='#EDEDED' selected-color="#4F68FA" block-size="10"></slider>
+    <view class='time'>
+      <view class='time_left'>{{current}}</view>
+      <!-- <view class='time_left'>{{currentNum}}</view> -->
+      <view class='time_right'>{{duration}}</view>
+    </view>
+    <view class='trip_btn'>
+      <image src='/image/rewind.png' bindtap='back'></image>
+      <image src='/image/play.png' bindtap='play'></image>
+      <image src='/image/forward.png' bindtap='go'></image>
+    </view>
+  </view>
+
+  <view class='trip_audio'>
+    <view class='trip_tit'>9月23日 墨尔本 7-13℃ 阴转小雨 ☔️</view>
+    <slider style="width:582rpx;margin-left:50rpx;" bindchange="changeValue" value='{{currentNum/durationNum}}' backgroundColor='#EDEDED' selected-color="#4F68FA" block-size="10"></slider>
+    <view class='time'>
+      <view class='time_left'>{{current}}</view>
+      <!-- <view class='time_left'>{{currentNum}}</view> -->
+      <view class='time_right'>{{duration}}</view>
+    </view>
+    <view class='trip_btn'>
+      <image src='/image/rewind.png' bindtap='back'></image>
+      <image src='/image/play.png' bindtap='play'></image>
+      <image src='/image/forward.png' bindtap='go'></image>
+    </view>
+  </view>
+
+  <view class='trip_audio'>
+    <view class='trip_tit'>SJ x Hubo 9月刊人物专访</view>
+    <slider style="width:582rpx;margin-left:50rpx;" bindchange="changeValue" value='{{currentNum/durationNum}}' backgroundColor='#EDEDED' selected-color="#4F68FA" block-size="10"></slider>
+    <view class='time'>
+      <view class='time_left'>{{current}}</view>
+      <!-- <view class='time_left'>{{currentNum}}</view> -->
+      <view class='time_right'>{{duration}}</view>
+    </view>
+    <view class='trip_btn'>
+      <image src='/image/rewind.png' bindtap='back'></image>
+      <image src='/image/play.png' bindtap='play'></image>
+      <image src='/image/forward.png' bindtap='go'></image>
+    </view>
+  </view>
+
+</view>
+ 

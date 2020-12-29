@@ -2,14 +2,14 @@
 .trip_audio{
   width:670rpx;
 height:276rpx;
-background:rgba(255,255,255,1);
+background:rgba(247, 75, 22, 0.5);
 border-radius:36rpx;
-margin: 20rpx auto 0;
+margin: 60rpx auto 0;
 /* background: #FE6F2A; */
 }
 .trip_tit{
   padding: 30rpx;
-  font-size:36rpx;
+  font-size:35rpx;
 font-family:PingFangSC-Semibold;
 font-weight:600;
 color:rgba(16,21,40,1);
@@ -42,4 +42,23 @@ margin: 0 auto;
 }
 .time_right{
   float: right
+}
+
+
+.card {
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  background-color: #e6e6e6a9;
+
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  padding: 30rpx;
+  font-size:60rpx;
+font-family:PingFangSC-Semibold;
+font-weight:600;
+color:rgba(247, 75, 22, 0.5);
+padding-bottom: 10rpx;
 }
