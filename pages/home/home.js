@@ -11,8 +11,5 @@ Component({
       }
     }
   },
-  data: {indicatordots: true,/*加入图标指示点*/
-    autoplay: true,/*自动切换图片开关*/
-    interval: 1000,   
-  /*切换时间属性1000=1秒*/}
+
 })

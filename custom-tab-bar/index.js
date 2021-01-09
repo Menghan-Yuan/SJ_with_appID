@@ -2,7 +2,7 @@ Component({
   data: {
     selected: 0,
     color: "#7A7E83",
-    selectedColor: "#3cc51f",
+    selectedColor: "#7A7E83",
     list: [{
       pagePath: "/pages/home/home",
       iconPath: "/image/icon_component.png",
@@ -10,18 +10,18 @@ Component({
       text: "首页"
     }, {
       pagePath: "/pages/event/event",
-      iconPath: "/image/icon_component.png",
-      selectedIconPath: "/image/icon_component_HL.png",
+      iconPath: "/image/event.png",
+      selectedIconPath: "/image/event_hl.png",
       text: "活动"
     },{
       pagePath: "/pages/magazine/magazine",
-      iconPath: "/image/icon_component.png",
-      selectedIconPath: "/image/icon_component_HL.png",
+      iconPath: "/image/magazine.png",
+      selectedIconPath: "/image/magazine_hl.png",
       text: "杂志"
     },{
       pagePath: "/pages/radio/radio",
-      iconPath: "/image/icon_component.png",
-      selectedIconPath: "/image/icon_component_HL.png",
+      iconPath: "/image/redio.png",
+      selectedIconPath: "/image/redio_hi.png",
       text: "电台"
     }]
   },

@@ -21,7 +21,6 @@ Component({
   onShow: function() {
     let that = this
     myaudio.src = '/audio/8_26.mp3'
-    myaudio.src = '/audio/9_2.mp3'
     myaudio.onTimeUpdate(function(){
       let durationnum = parseInt(myaudio.duration)
       let time = that.formatSeconds(myaudio.duration)

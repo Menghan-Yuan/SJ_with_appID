@@ -4,7 +4,7 @@
 height:276rpx;
 background:rgba(247, 75, 22, 0.5);
 border-radius:36rpx;
-margin: 60rpx auto 0;
+margin: 50rpx auto 0;
 /* background: #FE6F2A; */
 }
 .trip_tit{
