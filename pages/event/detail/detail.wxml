@@ -1,0 +1,30 @@
+<!--pages/event/detail/detail.wxml-->
+<veiw >
+  <form bindsubmit="submit">
+
+    <view class = 'inputArea'>
+      <text class ='title'>姓名</text>
+      <input class="detailInput" id = 'mame' name="name" placeholder="请输入姓名" />
+    </view>
+
+    <view class = 'inputArea'>
+      <text class ='title'>职业</text>
+      <input class="detailInput" id = 'job' name="job" placeholder="请输入职业" />
+    </view>
+
+    <view class = 'inputArea'>
+      <text class ='title'>邮箱</text>
+      <input class="detailInput"  name="email" placeholder="请输入邮箱" />
+    </view>
+    
+
+    <view class = 'inputArea'>
+      <text class ='title'>手机号码</text>
+      <input class="detailInput"  name="phoneNumber" placeholder="请输入手机号码" />
+    </view>
+    
+    <view class ='btnArea'>
+      <button style="margin: 30rpx 0; background-color: orange;" type="primary" formType="submit">报名</button>
+    </view>
+  </form>
+</veiw>

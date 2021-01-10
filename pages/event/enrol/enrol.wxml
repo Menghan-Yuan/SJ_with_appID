@@ -1,0 +1,12 @@
+<!--pages/event/enrol/enrol.wxml-->
+<view class="eventWrapper"> 
+  <view class = "titleWrapper">
+    <text class="TitleText">约拍达人</text>
+  </view>
+  <view class="bannerWrapper">
+    <image class="banner" src = "/image/event/poster.png"></image>
+  </view>
+  <view class="introWrapper">
+    <text class="introText">这部分是活动介绍</text>
+  </view>
+</view>
