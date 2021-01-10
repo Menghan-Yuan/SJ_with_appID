@@ -1,111 +1,46 @@
-const myaudio = wx.createInnerAudioContext();
-Component({
-  pageLifetimes: {
-    show() {
-      if (typeof this.getTabBar === 'function' &&
-        this.getTabBar()) {
-        this.getTabBar().setData({
-          selected: 3
-        })
-      }
-    }
-  },
-  data: {
-    tridPlay: true,
-    duration: '00:00',
-    current:'00:00',
-    durationNum:0,
-    currentNum:0
-  },
-
-  onShow: function() {
-    let that = this
-    myaudio.src = '/audio/8_26.mp3'
-    myaudio.onTimeUpdate(function(){
-      let durationnum = parseInt(myaudio.duration)
-      let time = that.formatSeconds(myaudio.duration)
-      that.setData({
-        duration: time,
-        durationNum: durationnum,
-      })
-      that.changeCurrent(myaudio.currentTime)
-    })
-  },
-// 左侧补零
-addZero(val){
-  if(val<10){
-    return 0+''+val
-  }else{
-    return val
-  }
-},
- // 时间格式化
- formatSeconds(value) {
-  var secondTime = parseInt(value); // 秒
-  var minuteTime = 0; // 分
-  var hourTime = 0; // 小时
-  if (secondTime > 60) {
-    minuteTime = parseInt(secondTime / 60);
-    secondTime = parseInt(secondTime % 60);
-    if (minuteTime > 60) {
-      hourTime = parseInt(minuteTime / 60);
-      minuteTime = parseInt(minuteTime % 60);
-    }
-  }
-  var result = "" + this.addZero(parseInt(secondTime)) + "";
-  if (minuteTime > 0) {
-    result = "" + this.addZero(parseInt(minuteTime)) + ":" + result;
-  }else{
-    result = "" + this.addZero(parseInt(minuteTime)) + ":" + result;
-  }
-  if (hourTime > 0) {
-    result = "" + parseInt(hourTime) + ":" + result;
-  }
-  return result;
-},
-// 播放暂停
-play() {
-  let that = this;
-  if (that.data.tridPlay) {
-    myaudio.play();
-    that.setData({
-      tridPlay: false
-    })
-  } else {
-    myaudio.pause()
-    that.setData({
-      tridPlay: true
-    })
-  }
+const DATA = [{
+  id: 1,
+  title: '8月26日 墨尔本 8-15℃ 多云转晴⛅️',
   
-},
-// 快进
-go() {
-  myaudio.seek(parseInt(myaudio.currentTime) + 10)
-  this.changeCurrent(parseInt(myaudio.currentTime) + 10)
-},
-// 快退
-back() {
-  myaudio.seek(parseInt(myaudio.currentTime) - 10)
-  this.changeCurrent(parseInt(myaudio.currentTime) - 10)
-},
-// 滑块拖动快进，快退
-changeValue(e){
-  let val = e.detail.value
-  let step = (val / 100) * this.data.durationNum
-  myaudio.seek(parseInt(step))
-  this.changeCurrent(step)
+  src: '/audio/8_26.mp3'
+}, {
+  id: 2,
+  title: '9月2日 墨尔本 10-19℃ 阴转小雨 ☔️',
+ 
+  src: '/audio/9_2.mp3'
+}, {
+  id: 3,
+  title: '9月9日 墨尔本 6-19℃ 多云转晴 ⛅️ ',
+ 
+  src: '/audio/9_9.mp3'
+}, {
+  id: 4,
+  title: '9月16日 墨尔本 7-25℃ 阴转小雨 ⛅️ ☀️ ',
+ 
+  src: '/audio/9_16.mp3'
+}, {
+  id: 5,
+  title: '9月23日 墨尔本 7-13℃ 阴转小雨 ☔️ ',
+ 
+  src: '/audio/9_23.mp3.mp3'
+}, {
+  id: 6,
+  title: 'SJ x Hubo 9月刊人物专访 ',
+ 
+  src: '/audio/Hubo.mp3.mp3'
+}]
+Page({
 
-},
-
-changeCurrent(step){
-  let currentnum = parseInt(step)
-  let currentt = this.formatSeconds(currentnum)
-  this.setData({
-    current: currentt,
-    currentNum: currentnum*100
-  })
-}
+  /**
+   * 页面的初始数据
+   */
+  data: {
+    list: DATA,
+    audioId: ''
+  },
+  toggleAudioId(obj) {
+    this.setData({
+      audioId: obj.detail
+    })
+  }
 })
-
-

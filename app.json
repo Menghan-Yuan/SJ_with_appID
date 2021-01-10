@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/home/home",
     "pages/event/event",
     "pages/magazine/magazine",
-    "pages/radio/radio"
+    "pages/radio/radio",
+    "pages/audioItem/audioItem"
   ],
   "tabBar": {
     "custom": true,
@@ -12,12 +12,7 @@
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [
-      {
-        "pagePath": "pages/home/home",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png",
-        "text": "首页"
-      },
+
       {
         "pagePath": "pages/event/event",
         "iconPath": "image/icon_component.png",

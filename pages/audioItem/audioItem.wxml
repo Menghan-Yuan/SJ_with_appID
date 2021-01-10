@@ -1,0 +1,9 @@
+
+<view class='card'>
+<view class='audio-box'>
+  <image class='audio-img' src='{{info.image}}'></image>
+  <text class='audio-user'>{{info.title}}</text>
+  <button class='audio-btn' type='primary' hidden="{{!isPlaying}}" size='default' bindtap='pause'>暂停</button>
+  <button class='audio-btn' hidden="{{isPlaying}}" size='default' bindtap='play'>播放</button>
+</view>
+</view>

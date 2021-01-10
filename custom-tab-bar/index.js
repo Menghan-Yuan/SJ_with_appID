@@ -4,11 +4,6 @@ Component({
     color: "#7A7E83",
     selectedColor: "#7A7E83",
     list: [{
-      pagePath: "/pages/home/home",
-      iconPath: "/image/icon_component.png",
-      selectedIconPath: "/image/icon_component_HL.png",
-      text: "首页"
-    }, {
       pagePath: "/pages/event/event",
       iconPath: "/image/event.png",
       selectedIconPath: "/image/event_hl.png",
@@ -23,7 +18,7 @@ Component({
       iconPath: "/image/redio.png",
       selectedIconPath: "/image/redio_hi.png",
       text: "电台"
-    }]
+    },]
   },
   attached() {
   },
