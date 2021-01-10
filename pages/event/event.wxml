@@ -1,5 +1,5 @@
 <!--pages/活动/活动.wxml-->
-<image class="imgBox" mode="widthFix" src="/image/poster.png">
+<image class="imgBox" mode="widthFix" src="/image/home/poster.png">
 </image>
 
 <view class = "eventWrapper">

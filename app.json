@@ -15,20 +15,20 @@
 
       {
         "pagePath": "pages/event/event",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png",
+        "iconPath": "image/home/event.png",
+        "selectedIconPath": "image/home/event_hl.png",
         "text": "活动"
       },
       {
         "pagePath": "pages/magazine/magazine",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png",
+        "iconPath": "image/home/magazine.png",
+        "selectedIconPath": "image/home/magazine_hl.png",
         "text": "杂志"
       },
       {
         "pagePath": "pages/radio/radio",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png",
+        "iconPath": "image/home/redio.png",
+        "selectedIconPath": "image/home/redio_hi.png",
         "text": "电台"
       }
     ]

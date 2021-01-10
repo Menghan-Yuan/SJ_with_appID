@@ -31,9 +31,17 @@ const DATA = [{
 }]
 Page({
 
-  /**
-   * 页面的初始数据
-   */
+  pageLifetimes: {
+    show() {
+      if (typeof this.getTabBar === 'function' &&
+        this.getTabBar()) {
+        this.getTabBar().setData({
+          selected: 2
+        })
+      }
+    }
+  },
+
   data: {
     list: DATA,
     audioId: ''
