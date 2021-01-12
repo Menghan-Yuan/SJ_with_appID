@@ -2,6 +2,11 @@
   "pages": [
     "pages/event/event",
     "pages/magazine/magazine",
+    "pages/magazine/VOL1/VOL1",
+    "pages/magazine/VOL2/VOL2",
+    "pages/magazine/VOL3/VOL3",
+    "pages/magazine/VOL4/VOL4",
+    "pages/magazine/VOL5/VOL5",
     "pages/radio/radio",
     "pages/audioItem/audioItem"
   ],

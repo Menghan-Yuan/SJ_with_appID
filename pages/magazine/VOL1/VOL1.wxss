@@ -1,0 +1,35 @@
+/* pages/magazine/VOL1/VOL1.wxss */
+.title {
+  margin: 10rpx;
+  font-size: large;
+  text-align: center;
+}
+
+.caption {
+  font-size: xx-small;
+  margin: 10rpx;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 30rpx;
+  width: 25%;
+  background-color: orange;
+  color: white;
+  border-radius: 98rpx;
+  font-size: xx-small;
+}
+
+video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt {
+  margin: 30rpx;
+}
+
+.footer {
+  height: 100rpx;
+}

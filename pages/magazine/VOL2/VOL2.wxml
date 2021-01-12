@@ -1,0 +1,9 @@
+<!--pages/magazine/VOL2/VOL2.wxml-->
+<view>
+  <view class="title">二十不惑 | 在墨尔本学飞是一种怎样的体验</view>
+  <view class="caption">Vol.2 SJ x Hubo 9月刊人物 | 武汉大男孩的学飞之旅</view>
+  <video src="/video/vol2.mp4"></video>
+  <button class="btn" bindtap="back">Back</button>
+</view>
+
+<view class="footer"></view>
