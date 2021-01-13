@@ -1,9 +1,4 @@
 <!--pages/magazine/VOL3/VOL3.wxml-->
-<view>
-  <view class="title">把生活写成歌 | 音乐鬼才少女年糕</view>
-  <view class="caption">Vol.3 SJ x 年糕 10月刊人物 | 年糕Glass灵感创作背后的故事</view>
-  <video src="/video/vol3.mp4"></video>
-  <button class="btn" bindtap="back">Back</button>
-</view>
+<web-view src="https://mp.weixin.qq.com/s/ZyYPWZ96XXAJYccXL0Ntbw"></web-view>
 
 <view class="footer"></view>

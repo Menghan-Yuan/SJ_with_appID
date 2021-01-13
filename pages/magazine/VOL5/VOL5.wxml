@@ -1,9 +1,4 @@
 <!--pages/magazine/VOL5/VOL5.wxml-->
-<view>
-  <view class="title">在乐高上弹奏生活的钢琴师 | Donny</view>
-  <view class="caption">Vol.5 SJ x Donny 12月刊人物 | 独家专访首位华人乐高设计师</view>
-  <video src="/video/vol5.mp4"></video>
-  <button class="btn" bindtap="back">Back</button>
-</view>
+<web-view src="https://mp.weixin.qq.com/s/2Mtxxu6p2dkx_dRUNFx_pA"></web-view>
 
 <view class="footer"></view>

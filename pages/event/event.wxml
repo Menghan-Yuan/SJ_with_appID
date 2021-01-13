@@ -1,11 +1,11 @@
 <!--pages/活动/活动.wxml-->
-<image class="imgBox" mode="widthFix" src="/image/home/poster.png">
+<image class="imgBox" src="http://m.qpic.cn/psc?/V112BFxG0flDRs/TmEUgtj9EK6.7V8ajmQrEOxcDfLwmSfwnLGQr0rD5Lq4eM.vlumoa34MVonttCdbZ.1iO8YzzBKoEFg*9ldaXobSrKCphToU*urfbHg6UNE!/b&bo=OARTBgAAAAABN3k!&rf=viewer_4">
 </image>
 
 <view class = "eventWrapper">
   <view class = "eventInfo">
     <view class = 'imgWrapper'>
-      <image class ="cutImg" src= "/image/event/poster.png"></image>
+      <image class ="cutImg" src= "http://m.qpic.cn/psc?/V112BFxG0flDRs/TmEUgtj9EK6.7V8ajmQrEOxcDfLwmSfwnLGQr0rD5Lq4eM.vlumoa34MVonttCdbZ.1iO8YzzBKoEFg*9ldaXobSrKCphToU*urfbHg6UNE!/b&bo=OARTBgAAAAABN3k!&rf=viewer_4"></image>
     </view>
     <view class = "textWrapper">
       <text class="title">约拍达人召集令</text>
@@ -22,7 +22,7 @@
 
   <view class = "eventInfo">
     <view class = 'imgWrapper'>
-      <image class ="cutImg" src= "/image/event/poster.png"  ></image>
+      <image class ="cutImg" src= "http://m.qpic.cn/psc?/V112BFxG0flDRs/TmEUgtj9EK6.7V8ajmQrEOxcDfLwmSfwnLGQr0rD5Lq4eM.vlumoa34MVonttCdbZ.1iO8YzzBKoEFg*9ldaXobSrKCphToU*urfbHg6UNE!/b&bo=OARTBgAAAAABN3k!&rf=viewer_4g"  ></image>
     </view>
     <view class = "textWrapper">
       <text class="title">约拍达人召集令</text>

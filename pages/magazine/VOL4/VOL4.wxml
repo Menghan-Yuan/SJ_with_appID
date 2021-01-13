@@ -1,9 +1,4 @@
 <!--pages/magazine/VOL4/VOL4.wxml-->
-<view>
-  <view class="title">忙碌的吃饭工作者 | 王嘿嘿</view>
-  <view class="caption">Vol.4 SJ x 王嘿嘿 11月刊人物 | 你是真正的快乐</view>
-  <video src="/video/vol4.mp4"></video>
-  <button class="btn" bindtap="back">Back</button>
-</view>
+<web-view src="https://mp.weixin.qq.com/s/hG0v8-wE_tAvefefTC2hDA"></web-view>
 
 <view class="footer"></view>

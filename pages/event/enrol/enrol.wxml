@@ -4,7 +4,7 @@
     <text class="TitleText">约拍达人</text>
   </view>
   <view class="bannerWrapper">
-    <image class="banner" src = "/image/event/poster.png"></image>
+    <image class="banner" src = "https://xg-ctfs.ftn.qq.com/ftn_handler/258d0ca5be3ccae1ffbb1aaf5d382899638a5208e0fe6dfd66bfc6d454bcf319611b7e50799c04b77d177752078e0eaca1de326fe18c657be488464648cad404/?fname=vol.5%20Donny%20cover.png&k=783831351de7c4ce5b9bc02d4438031e51090400060850531f595201511505540b5a1c0d5a08541c055903030459040001090156622d31475d541f00427c5e5f5c4111560d4e54431c485f526205&code=2815b811&fr=00&&txf_fid=47148fb177c86b1b301b12c3997a0cd1826ebbe4&xffz=663681"></image>
   </view>
   <view class="introWrapper">
     <text class="introText">这部分是活动介绍</text>

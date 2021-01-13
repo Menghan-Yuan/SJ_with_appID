@@ -2,7 +2,7 @@
 <view class="container_mg">
   <button class="date">20/12/2020</button>
   <view class="img">
-    <image class="banner" src="/image/magazine/vol5.png"></image>
+    <image class="banner" src="http://m.qpic.cn/psc?/V112BFxG0flDRs/TmEUgtj9EK6.7V8ajmQrEBsZF7V8gtgf*Sn4NVg6HByWnZFjMMfXax28tJaf.tsJRYWqPXsA*MImu7uaSwl8YRJFs42BKFatyAMLkBilJH4!/b&bo=2gTgAQAAAAADR10!&rf=viewer_4"></image>
   </view>
   <view class="title">在乐高上弹奏生活的钢琴师 | Donny</view>
   <view class="caption">Vol.5 SJ x Donny 12月刊人物 | 独家专访首位华人乐高设计师</view>
@@ -12,7 +12,7 @@
 <view class="container_mg">
   <button class="date">17/11/2020</button>
   <view class="img">
-    <image class="banner" src="/image/magazine/vol4_wangheihei.png"></image>
+    <image class="banner" src="http://m.qpic.cn/psc?/V112BFxG0flDRs/TmEUgtj9EK6.7V8ajmQrELlAmBIinXwZsncATuKJG45AIOLpOkZ36LjpY6JmnKpcAGMbVdSH2MMI1hIf05bWJ2eY6eqKFOSNTf1.L2NHuO4!/b&bo=2gTgAQAAAAADV00!&rf=viewer_4"></image>
   </view>
   <view class="title">忙碌的吃饭工作者 | 王嘿嘿</view>
   <view class="caption">Vol.4 SJ x 王嘿嘿 11月刊人物 | 你是真正的快乐</view>
@@ -22,7 +22,7 @@
 <view class="container_mg">
   <button class="date">11/10/2020</button>
   <view class="img">
-    <image class="banner" src="/image/magazine/年糕cover.png"></image>
+    <image class="banner" src="http://m.qpic.cn/psc?/V112BFxG0flDRs/TmEUgtj9EK6.7V8ajmQrELxmeDyDK77p.KwRtg2e8dK.w*pu3P8Nc2DkJeOEOd6IQJirBq9QkJnFyynL5UZHkLHq9RBlM7rprHFbo2M9QF0!/b&bo=gAcgAwAAAAADhwY!&rf=viewer_4"></image>
   </view>
   <view class="title">把生活写成歌 | 音乐鬼才少女年糕</view>
   <view class="caption">Vol.3 SJ x 年糕 10月刊人物 | 年糕Glass灵感创作背后的故事</view>
@@ -32,7 +32,7 @@
 <view class="container_mg">
   <button class="date">12/9/2020</button>
   <view class="img">
-    <image class="banner" src="/image/magazine/Hubo.PNG"></image>
+    <image class="banner" src="http://m.qpic.cn/psc?/V112BFxG0flDRs/TmEUgtj9EK6.7V8ajmQrEDYLE.nZI.EPzzJ6JLU7cCVypP**wRp0tdwzu4ZS7oo33xVAKYEo0m8Q3AOva3E9WgTMX*1458FMWzs6gLwWRm0!/b&bo=gAcgAwAAAAADR8Y!&rf=viewer_4"></image>
   </view>
   <view class="title">二十不惑 | 在墨尔本学飞是一种怎样的体验</view>
   <view class="caption">Vol.2 SJ x Hubo 9月刊人物 | 武汉大男孩的学飞之旅</view>
@@ -42,7 +42,7 @@
 <view class="container_mg">
   <button class="date">8/8/2020</button>
   <view class="img">
-    <image class="banner" src="/image/magazine/Alisa.PNG"></image>
+    <image class="banner" src="http://m.qpic.cn/psc?/V112BFxG0flDRs/TmEUgtj9EK6.7V8ajmQrED6v2n0OkA9XGiwLGTjf2PnDQzJBMZXdsXk7agma2AJNxH8OaTCZJIxu.ADCO*uH7fuEKKPhU*sQYxiiYJDdinU!/b&bo=gAc4BAAAAAADZ*k!&rf=viewer_4"></image>
   </view>
   <view class="title">三十而“野” Alisa</view>
   <view style="white-space:pre-wrap" class="caption">Sharesome Journal首刊封面人物

@@ -1,11 +1,4 @@
-<!--pages/magazine/VOL1/VOL1.wxml-->
-<view>
-  <view class="title">三十而“野” Alisa</view>
-  <view style="white-space:pre-wrap" class="caption">Sharesome Journal首刊封面人物
-    Vol.1 Feature RMIT Fashion Design Student Alisa</view>  
-  <video src="/video/vol1.mp4"></video>
-  <button class="btn" bindtap="back">Back</button>
-</view>
+<web-view src="https://mp.weixin.qq.com/s/52dzK2Rw6xTkon0bfmQ0gA"></web-view>
 
 <view class="footer"></view>
 
