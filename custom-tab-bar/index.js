@@ -6,17 +6,17 @@ Component({
     list: [{
       pagePath: "/pages/event/event",
       iconPath: "/image/home/event.png",
-      selectedIconPath: "/image/home/event_hl.png",
+      selectedIconPath: "/image/home/event.png",
       text: "活动"
     },{
       pagePath: "/pages/magazine/magazine",
       iconPath: "/image/home/magazine.png",
-      selectedIconPath: "/image/home/magazine_hl.png",
+      selectedIconPath: "/image/home/magazine.png",
       text: "杂志"
     },{
       pagePath: "/pages/radio/radio",
       iconPath: "/image/home/redio.png",
-      selectedIconPath: "/image/home/redio_hi.png",
+      selectedIconPath: "/image/home/redio.png",
       text: "电台"
     },]
   },

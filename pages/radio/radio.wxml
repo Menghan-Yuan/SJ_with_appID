@@ -1,4 +1,8 @@
 <view class='title'>电台</view>
+<view class ='back'>
+<view class='card'></view>
 <view >
   <audio-item wx:for="{{list}}" audioId="{{audioId}}" info="{{item}}" wx:key="{{index}}" bind:toggleAudioId="toggleAudioId" />
+</view>
+<view class='card1'></view>
 </view>
