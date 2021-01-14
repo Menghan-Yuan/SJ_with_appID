@@ -1,5 +1,5 @@
 <!--pages/活动/活动.wxml-->
-<image class="imgBox" src="http://m.qpic.cn/psc?/V112BFxG0flDRs/TmEUgtj9EK6.7V8ajmQrEOxcDfLwmSfwnLGQr0rD5Lq4eM.vlumoa34MVonttCdbZ.1iO8YzzBKoEFg*9ldaXobSrKCphToU*urfbHg6UNE!/b&bo=OARTBgAAAAABN3k!&rf=viewer_4">
+<image class="imgBox" src="http://m.qpic.cn/psc?/V112BFxG0flDRs/TmEUgtj9EK6.7V8ajmQrEPLKJm.PT4TwOeWGfYqwCWf3SOXsSIPoxNgSoi0d3B0dfXyQlhplsLxaprmUGjwScT36EVXLzOGsbPIc4ifJwB8!/b&bo=dwHsAgAAAAADN4o!&rf=viewer_4">
 </image>
 
 <view class = "eventWrapper">
