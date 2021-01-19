@@ -3,6 +3,8 @@
 <view class='audio-box'>
   <image class='audio-img' src='{{info.image}}'></image>
   <text class='audio-user'>{{info.title}}</text>
-  <button class='audio-btn' type='primary' hidden="{{!isPlaying}}" size='default' bindtap='pause'>暂停</button>
-  <button class='audio-btn' hidden="{{isPlaying}}" size='default' bindtap='play'>播放</button>
+  <button plain="true" hidden="{{!isPlaying}}" size='default' bindtap='pause'><image src="pause.png"></image></button>
+  <button plain="true" hidden="{{isPlaying}}" size='default' bindtap='play'>
+    <image src="play.png"></image>
+  </button>
 </view>

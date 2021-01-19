@@ -10,12 +10,12 @@ const DATA = [{
   src: 'https://www.joy127.com/url/78158.mp3'
 }, {
   id: 3,
-  title: '9月9日 墨尔本 6-19℃ 多云转晴 ⛅️ ',
+  title: '9月9日 墨尔本 6-19℃ 多云转晴 ⛅️',
  
   src: 'https://www.joy127.com/url/78159.mp3'
 }, {
   id: 4,
-  title: '9月16日 墨尔本 7-25℃ 阴转小雨 ⛅️ ☀️ ',
+  title: '9月16日 墨尔本 7-25℃ 阴转小雨 ⛅️',
  
   src: 'https://www.joy127.com/url/78160.mp3'
 }, {

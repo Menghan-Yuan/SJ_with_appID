@@ -6,7 +6,7 @@
   </view>
   <view class="title">在乐高上弹奏生活的钢琴师 | Donny</view>
   <view class="caption">Vol.5 SJ x Donny 12月刊人物 | 独家专访首位华人乐高设计师</view>
-  <button class="watch" bindtap="volFive">观看采访视频</button>
+  <button class="watch" bindtap="volFive">阅读原文</button>
 </view>
 
 <view class="container_mg">
@@ -16,7 +16,7 @@
   </view>
   <view class="title">忙碌的吃饭工作者 | 王嘿嘿</view>
   <view class="caption">Vol.4 SJ x 王嘿嘿 11月刊人物 | 你是真正的快乐</view>
-  <button class="watch" bindtap="volFour">观看采访视频</button>
+  <button class="watch" bindtap="volFour">阅读原文</button>
 </view>
 
 <view class="container_mg">
@@ -26,7 +26,7 @@
   </view>
   <view class="title">把生活写成歌 | 音乐鬼才少女年糕</view>
   <view class="caption">Vol.3 SJ x 年糕 10月刊人物 | 年糕Glass灵感创作背后的故事</view>
-  <button class="watch" bindtap="volThree">观看采访视频</button>
+  <button class="watch" bindtap="volThree">阅读原文</button>
 </view>
 
 <view class="container_mg">
@@ -36,7 +36,7 @@
   </view>
   <view class="title">二十不惑 | 在墨尔本学飞是一种怎样的体验</view>
   <view class="caption">Vol.2 SJ x Hubo 9月刊人物 | 武汉大男孩的学飞之旅</view>
-  <button class="watch" bindtap="volTwo">观看采访视频</button>
+  <button class="watch" bindtap="volTwo">阅读原文</button>
 </view>
 
 <view class="container_mg">
@@ -47,7 +47,7 @@
   <view class="title">三十而“野” Alisa</view>
   <view style="white-space:pre-wrap" class="caption">Sharesome Journal首刊封面人物
     Vol.1 Feature RMIT Fashion Design Student Alisa</view>
-  <button class="watch" bindtap="volOne">观看采访视频</button>
+  <button class="watch" bindtap="volOne">阅读原文</button>
 </view>
 
 <view class="footer"></view>
